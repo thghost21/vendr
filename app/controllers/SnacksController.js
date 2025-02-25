@@ -16,4 +16,12 @@ export class SnacksController {
     snackListElem.innerHTML = snackListContent
 
   }
+
+  purchaseSnack(snackName) {
+    console.log('Snack Purchased', snackName);
+
+
+  }
+
+
 }
